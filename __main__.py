@@ -19,6 +19,8 @@ def move_arquivos():
             shutil.move(arquivo, "documentos")
         if ".xls" in arquivo:
             shutil.move(arquivo, "planilhas")
+
+
 #Executa
 if __name__ == "__main__":
     cria_pastas()
